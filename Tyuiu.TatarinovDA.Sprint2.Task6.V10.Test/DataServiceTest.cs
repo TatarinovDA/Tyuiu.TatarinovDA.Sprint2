@@ -13,7 +13,6 @@ namespace Tyuiu.TatarinovDA.Sprint2.Task6.V10.Test
             Assert.AreEqual("30.04.2023", ds.FindDateOfPreviousDay(2023,5,1));
             Assert.AreEqual("28.02.2023", ds.FindDateOfPreviousDay(2023,3,1));
             Assert.AreEqual("31.12.2022", ds.FindDateOfPreviousDay(2023,1,1));
-
         }
     }
 }
